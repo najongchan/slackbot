@@ -11,3 +11,4 @@ channel = ['#bottest', '#general', '#nago']
 def poatMessage(channel, message) :
     slack.chat.post_message(channel, message, as_user=True)
 
+print("second try")
